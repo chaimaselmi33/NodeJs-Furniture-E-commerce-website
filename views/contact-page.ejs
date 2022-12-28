@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Raleway:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0bc25bddb1.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <header>
+        <%- include ('header.ejs') %>
+    </header>
+
+    <div class="container-fluid px-0 ">
+        <div class="position-relative">
+            <div class="image-wrapper">
+                <img src="./images/modern-scandinavian-interior-living-room.jpg" width="100%" height="100%">
+            </div>
+            <div class="image-text position-absolute top-50 start-50 translate-middle">Contact Us</div>
+        </div>
+
+        <div class="position-relative" style="z-index: 1000;">
+
+            <div class="position-relative d-flex mt-5 justify-content-center" style="bottom: -50px;">
+                <div class="mx-4 pb-3 text-center contact-block">
+                    <div class="d-flex contact-icon justify-content-center align-items-center w-25 mx-auto">
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <h4 class="my-3">Location</h4>
+                    <p>Bardo, Rue Habib bougatfa</p>
+                </div>
+
+                <div class="mx-4 pb-3 text-center contact-block">
+                    <div class="d-flex contact-icon justify-content-center align-items-center w-25 mx-auto">
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <h4 class="my-3">Email</h4>
+                    <p>modernfurniture@furn.com</p>
+                </div>
+
+                <div class="mx-4 pb-3 text-center contact-block">
+                    <div class="d-flex contact-icon justify-content-center align-items-center w-25 mx-auto">
+                        <i class="fa fa-phone fa-rotate-90 fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <h4 class="my-3">Phone</h4>
+                    <p>+ 216 25 859 654</p>
+                </div>
+            </div>
+
+            <div class="form-container pt-5 w-75 mx-auto p-3">
+                <h1 class="text-center mt-5">CONTACT FORM</h1>
+                <form class="form" action="/postform" method="POST">
+                    <div class="row">
+                        <div class="col-6 ">
+                            <div class="my-5 w-75 mx-auto">
+                                <input type="text" class="form-control" name="firstName" placeholder="First name">
+                            </div>
+                            <div class="my-5 w-75 mx-auto">
+                                <input type="text" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="my-5 w-75 mx-auto">
+                                <textarea type="text" class="form-control" name="message" placeholder="Message Here"
+                                    rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="my-5 w-75 mx-auto">
+                                <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+                            </div>
+                            <div class="my-5 w-75 mx-auto">
+                                <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ms-5 ps-3">
+                        <button class="btn submitBtn"> Submit </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div style=" filter: grayscale(20%); height: 400px;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6575.611543563858!2d10.143985212478649!3d36.81352549588229!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stn!4v1670410871930!5m2!1sfr!2stn"
+                width="100%" height="450" style="border:0; position: absolute; top: -50px;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <%- include ('footer.ejs') %>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+body {
+    overflow-x: hidden;
+}
+
+.carousel-inner img {
+    object-fit: fill;
+}
+
+.blurred-part {
+    height: 100% !important;
+    position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    width: 35%;
+    background: rgba(44, 40, 40, 0.318);
+    backdrop-filter: blur(10px);
+}
+
+.intro-title {
+    margin-top: 35% !important;
+    margin-left: 30%;
+}
+
+.intro-para {
+    margin-left: 30%;
+}
+
+.small-sized-text {
+    font-family: 'Raleway', sans-serif;
+    color: #a0a097;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.medium-sized-text {
+    font-family: 'Raleway', sans-serif;
+    color: #d6d6c4;
+    font-size: 90px;
+    margin-left: 7px;
+}
+
+.big-sized-text {
+    /* color: #e4e4b8;*/
+    font-family: 'Raleway', sans-serif;
+    color: #eaeacd;
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.intro-para p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 186, 186);
+    padding: 15px;
+    /* text-align: justify;*/
+    text-justify: inter-word;
+}
+
+.about-us-container {
+    padding-top: 50px !important;
+    padding-left: 150px !important;
+}
+
+.about-us-container h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #2c3a51;
+}
+
+.about-us-container p {
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    text-align: justify;
+    color: #50545c;
+}
+
+.service-section {
+    background: #124A42;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.px-100 {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+}
+
+.pl-150 {
+    padding-left: 150px !important;
+}
+
+.pt-10 {
+    padding-top: 10%;
+}
+
+.pt-20 {
+    padding-top: 20%;
+}
+
+
+.col-content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #ECE5D8;
+}
+
+.col-content p {
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    text-align: justify;
+    color: #a7a7a2;
+}

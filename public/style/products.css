@@ -1,0 +1,121 @@
+body{
+    background: #004841f5 !important;
+}
+
+.container{
+    padding-top: 150px;
+}
+
+.intro-section .col-3, .intro-section .col-9{
+    background:#ebe1d1;
+}
+
+.mt-80{
+    margin-top: 80%;
+}
+
+.blue-title-part{
+    position: relative;
+    font-size: 130px;
+    white-space: nowrap;
+    color: rgb(13, 48, 60);
+    font-family: 'Raleway', sans-serif;
+}
+
+.white-title-part{
+    position: relative;
+    font-size: 130px;
+    white-space: nowrap;
+    color: #ffffec;
+    font-family: 'Raleway', sans-serif;
+}
+
+.prod-offer i{
+    color: #ffffec;
+}
+
+.prod-offer p{
+    font-size: 20px;
+    color: #bcbcb6;
+    font-family: 'Jost', sans-serif;
+}
+
+.card{
+    border-radius: 2px !important;
+    border: none !important;
+    box-sizing: border-box !important;
+    overflow:  hidden !important;
+}
+
+.card-img-top{
+    object-fit: cover !important;
+}
+
+.card-body{
+    background: rgba(121, 115, 115, 0.377);
+    position: absolute;
+    width: 100%;
+    bottom: -120px;
+    transition: all ease-in-out 0.5s;
+}
+
+.card:hover > .card-body{
+    bottom: 0px;
+    transition: all ease-in-out 0.5s;
+}
+
+.card-title{
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(21, 45, 54);
+}
+
+.card-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #4b5654;
+}
+
+.card-icon{
+    position: relative !important;
+    text-decoration: none !important;
+    bottom: -60px;
+    width: 20px;
+    height:20px;
+    border-radius:50%;
+    border: 1px solid #677371;
+    padding: 10px !important;
+}
+
+
+.card-icon:nth-child(1){
+    transition-delay: 0.5s !important;
+}
+
+.card-icon:nth-child(2){
+    transition-delay: 0.7s !important;
+}
+
+.card-icon a{
+    font-size: 20px;
+    text-decoration: none !important;
+    color: rgb(13, 48, 60);
+}
+
+.card-icon a:hover{
+    color: rgb(13, 48, 60);
+    opacity: 0.8;
+}
+
+.card:hover .card-icon{
+    bottom: 5px;
+    transition: all ease-out .3s;
+}
+
+
+

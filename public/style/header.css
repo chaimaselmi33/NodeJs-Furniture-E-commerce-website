@@ -1,0 +1,21 @@
+nav {
+    /*background: rgba(195, 188, 166, 0.889);*/
+    position: absolute !important;
+    background: #12202084;
+    z-index: 2000;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item a {
+    /*color: #cfcfc5;*/
+    color: #dae7e5;
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+}
+
+.nav-item a:hover {
+    color: #b4bcbb;
+}

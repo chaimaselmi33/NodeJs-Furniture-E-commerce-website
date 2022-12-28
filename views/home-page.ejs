@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&&family=Raleway:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0bc25bddb1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <%- include ('header.ejs') %>
+    </header>
+
+    <div class="container-fluid px-0">
+        <section class="intro-section position-relative">
+            <div class="blurred-part">
+                <div class="intro-title">
+                    <h1 class="small-sized-text">Better </h1>
+                    <h1 class="medium-sized-text">Interiror</h1>
+                    <h1 class="big-sized-text"> Design</h1>
+                </div>
+                <div class="intro-para mt-5 me-2">
+                    <p style="text-align: justify;"> lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                        lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum  
+                    </p>
+                </div>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="">
+                        <img src="./images/carousel-img1.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="">
+                        <img src="./images/carousel-img1.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="">
+                        <img src="./images/carousel-img3.jpg" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us-section mt-5 pt-5">
+            <div class="row">
+                <div class="col-6">
+                    <div class="about-us-container">
+                        <h1 class="my-5">Who we are</h1>
+                        <p class=""> lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum 
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum</p>
+                    </div>
+                </div>
+                <div class="col-6" style="">
+                    <div class="pe-3">
+                        <img class="" src="./images/black-living-room.jpg"
+                            width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="row px-3">
+                <div class="col-4 py-5">
+                    <img src="./images/sofa-img1.webp"
+                        width="100%" height="450"
+                        style="object-fit: cover; object-position:50% 50%;filter: brightness(90%);">
+                </div>
+                <div class="col-4 py-5">
+                    <img src="./images/sofa-img2.jpeg" width="100%" height="450"
+                        style="object-fit: cover; object-position:center">
+                </div>
+                <div class="col-4 py-5">
+                    <img src="./images/sofa-img3.webp" width="100%" height="450"
+                        style="object-fit: cover; object-position:50% 50%;filter: brightness(80%);">
+                </div>
+            </div>
+        </section>
+
+        <section class="service-section pt-5" style="">
+            <div class="col-content pl-150">
+                <h1 class="mb-5">What we offer </h1>
+            </div>
+            <div class="row px-5" style="">
+                <div class="col-5 text-center">
+                    <div class="px-3 py-1" style="background: #a0a097; ">
+                        <img src="./images/orange-sofa.jpg" width="100%" height="500"
+                            style="object-fit: cover; object-position:center; filter: grayscale(15%);">
+                    </div>
+                    <h3 class=""
+                        style="width: 150px;font-size:50px; position: relative; top: -100px;left:-30px; color: #eaeacd; font-weight: 400;">
+                        Chairs</h3>
+                </div>
+                <div class="col-7 text-center ">
+                    <div class="px-3 py-1" style="background: #a0a097;">
+                        <img src="./images/mostard-sofa.jpg" width="100%" height="500"
+                            style="object-fit: cover ; object-position:center;  filter: grayscale(10%);">
+                    </div>
+                    <h3
+                        style="width: 150px; font-size:50px; position: relative; top: -100px; left:-30px;color: #eaeacd; font-weight: 400;">
+                        Sofas</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-content pl-150 pt-10">
+                        <h1 class="my-5">Authentic Design</h1>
+                        <p> lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum 
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                            lorem ispum lorem ispum</p>
+                    </div>
+                </div>
+                <div class="col-6 px-100 
+                text-center">
+                    <img src="./images/wooden-chair.jpg" width="75%" style="position: relative; top:50px">
+                </div>
+            </div>
+
+            <div class="row white-bg">
+                <div class="col-6 px-100 text-center">
+                    <img src="./images/black-chair.jpg" width="75%" style="position: relative; top:-50px">
+                </div>
+                <div class="col-6">
+                    <div class="col-content pl-150 pt-20">
+                        <h1 class="my-5" style="color: #2B3648;">Materials we use</h1>
+                        <p class="" style="color: #3a3e45;"> lorem ispum lorem ispum
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum 
+                            lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum lorem ispum
+                            lorem ispum  lorem ispum lorem ispum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <%- include ('footer.ejs') %>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
