@@ -1,9 +1,8 @@
 const express = require('express')
 const bodyParse = require('body-parser')
 const path = require('path')
-const exp = require('constants')
-const { send } = require('process')
 const port = 4200
+
 const app = express()
 
 //-----------settings------------

@@ -1,7 +1,5 @@
 const express = require('express')
-const bodyParser = require('body-parser')
 const dbConnection = require('../database/config')
-const path = require('path')
 
 const router = express.Router()
 
@@ -32,7 +30,6 @@ router.get("/products", (req, res) => {
 var qte = 1
 router.get("/products/:id", (req, res) => {
     const prod_id = req.params.id
-    console.log(prod_id)
     let sql = `select * from furniture where furn_id = ${prod_id}`
     dbConnection.query(sql, (err, result) => {
 
