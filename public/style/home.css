@@ -17,12 +17,12 @@ body {
 }
 
 .intro-title {
-    margin-top: 35% !important;
-    margin-left: 30%;
+    margin-top: 18% !important;
+    margin-left: 27%;
 }
 
 .intro-para {
-    margin-left: 30%;
+    margin-left: 27%;
 }
 
 .small-sized-text {
@@ -88,6 +88,10 @@ body {
 
 .pl-150 {
     padding-left: 150px !important;
+}
+
+.pl-50 {
+    padding-left: 50px !important;
 }
 
 .pt-10 {

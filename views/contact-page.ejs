@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/0bc25bddb1.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="overflow-x: hidden;">
+<body style="overflow-x: hidden; background-color: #f7f7f1;">
     <header>
         <%- include ('header.ejs') %>
     </header>
@@ -29,34 +29,34 @@
 
         <div class="position-relative" style="z-index: 1000;">
 
-            <div class="position-relative d-flex mt-5 justify-content-center" style="bottom: -50px;">
-                <div class="mx-4 pb-3 text-center contact-block">
+            <div class="position-relative d-flex mt-3 justify-content-center" style="bottom: -50px;">
+                <div class="mx-4 pb-2 text-center contact-block">
                     <div class="d-flex contact-icon justify-content-center align-items-center w-25 mx-auto">
                         <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                     </div>
-                    <h4 class="my-3">Location</h4>
+                    <h4 class="my-2">Location</h4>
                     <p>Bardo, Rue Habib bougatfa</p>
                 </div>
 
-                <div class="mx-4 pb-3 text-center contact-block">
+                <div class="mx-4 pb-2 text-center contact-block">
                     <div class="d-flex contact-icon justify-content-center align-items-center w-25 mx-auto">
                         <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                     </div>
-                    <h4 class="my-3">Email</h4>
+                    <h4 class="my-2">Email</h4>
                     <p>modernfurniture@furn.com</p>
                 </div>
 
-                <div class="mx-4 pb-3 text-center contact-block">
+                <div class="mx-4 pb-2 text-center contact-block">
                     <div class="d-flex contact-icon justify-content-center align-items-center w-25 mx-auto">
                         <i class="fa fa-phone fa-rotate-90 fa-2x" aria-hidden="true"></i>
                     </div>
-                    <h4 class="my-3">Phone</h4>
+                    <h4 class="my-2">Phone</h4>
                     <p>+ 216 25 859 654</p>
                 </div>
             </div>
 
-            <div class="form-container pt-5 w-75 mx-auto p-3">
-                <h1 class="text-center mt-5">CONTACT FORM</h1>
+            <div class="form-container pt-4 w-75 mx-auto p-3">
+                <h1 class="text-center mt-5" style="color: #A0A097;">CONTACT FORM</h1>
                 <form class="form" action="/postform" method="POST">
                     <div class="row">
                         <div class="col-6 ">
