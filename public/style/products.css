@@ -13,6 +13,9 @@ body{
 .mt-80{
     margin-top: 80%;
 }
+.mt-50{
+    margin-top: 50%;
+}
 
 .blue-title-part{
     position: relative;
@@ -31,7 +34,7 @@ body{
 }
 
 .prod-offer i{
-    color: #ffffec;
+    color: #ffffff;
 }
 
 .prod-offer p{

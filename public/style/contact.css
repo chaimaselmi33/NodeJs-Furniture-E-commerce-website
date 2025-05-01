@@ -75,9 +75,9 @@ form input, textarea:focus{
 .submitBtn{
     font-size: 24px !important;
     padding: 10px 35px !important;
-    background: #005C53 !important;
+    background: #124A42 !important;
     border-radius: 2px !important;
-    color:rgb(237, 237, 237) !important;
+    color:rgb(247, 247, 247) !important;
     font-family: 'Ubuntu', sans-serif !important; 
 }
 
