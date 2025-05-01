@@ -14,7 +14,7 @@ for storage and retrieval.
 
 To run the project locally, follow these steps:
 
-1- Install the app dependencies with : npm install
+1- Install the app dependencies with : npm install  
 2- Run the project with : npm run start
 
 ### ⚠️ **Note**: 
